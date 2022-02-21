@@ -30,11 +30,6 @@ boolean: true
 # And strings
 string: I am a string
 
-
-# This property is using the JSON schema recursively
-reference:
-  boolean: Not a boolean
-
 # JSON referenses can be clicked for navigation
 pointer:
   $ref: '#/array'
