@@ -35,16 +35,6 @@ string: I am a string
 reference:
   boolean: Not a boolean
 
-
-# Also works in arrays
-array:
-  - string: 12
-    enum: Mewtwo
-    reference:
-      reference:
-        boolean: true
-
-
 # JSON referenses can be clicked for navigation
 pointer:
   $ref: '#/array'
